@@ -9,6 +9,6 @@ let object = {
 
 console.log(object.getName());
 
-let { name, lastName, power } = object;
+let { name: firstName, lastName, power } = object;
 
-console.log(name, lastName, power);
+console.log(firstName, lastName, power);
