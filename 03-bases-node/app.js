@@ -3,7 +3,6 @@ const colors = require('colors/safe');
 
 const { crearArchivo, listarTabla } = require('./multiplicar/multiplcar');
 
-
 let comando = argv._[0];
 
 switch (comando) {
