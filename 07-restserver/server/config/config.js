@@ -15,13 +15,19 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
 
 // ============================
-//  Base de datos
+//  SEED
 // ============================
 
 process.env.SEED = process.env.SEED || 'secret';
 
 // ============================
-//  SEED
+//  Google client id
+// ============================
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '552131373074-ti7c7f018firlb14jj2e4g74sj69kahg.apps.googleusercontent.com';
+
+// ============================
+//  Base de datos
 // ============================
 
 let urlDB;
